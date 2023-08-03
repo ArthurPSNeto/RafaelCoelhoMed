@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
   <head>
     <!-- Google Tag Manager -->
     <script>
@@ -21,20 +21,13 @@
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
     <title>Dr. Rafael Coelho</title>
-    <link
-      rel="stylesheet"
-      href="/assets/bootstrap/css/bootstrap.min.css?h=3f30c2c47d7d23c7a994db0c862d45a5"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/assets/css/styles.min.css?h=d1085006a18d73ab85add5fe5e0b5def"
-    />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Basic-icons.css" />
+    <link rel="stylesheet" href="assets/css/Hero-Clean-images.css" />
   </head>
-  <body>
+
+  <body style="background: rgb(233, 236, 239)">
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -47,8 +40,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <main>
       <header>
-        <!-- Start: Navbar Right Links -->
-        <nav class="navbar navbar-light navbar-expand-md py-3">
+        <nav class="navbar navbar-expand-md py-3 navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="#"
               ><span>Dr. Rafael Coelho</span></a
@@ -69,7 +61,7 @@
                   <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#vidas">Vidas</a>
+                  <a class="nav-link" href="#conselhos">Conselhos</a>
                 </li>
               </ul>
               <ul class="navbar-nav">
@@ -77,7 +69,7 @@
                   <a class="nav-link active" href="#mude">Mude!</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#videos">Youtube</a>
+                  <a class="nav-link" href="#depoimento">Depoimento</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#coluna">Coluna Jornal</a>
@@ -95,19 +87,12 @@
             </div>
           </div>
         </nav>
-        <!-- End: Navbar Right Links -->
       </header>
-      <!-- Start: Hero Clean -->
-      <div class="container py-4 py-xl-5" id="home" style="background: #f5f5f5">
-        <div
-          class="row gy-4 gy-md-0"
-          style="background: #f5f5f5; margin-bottom: 10px"
-        >
+      <div class="container py-4 py-xl-5" id="home">
+        <div class="row gy-4 gy-md-0" style="padding-bottom: 10px">
           <div class="col-md-6">
             <picture class="d-flex visible" style="position: relative"
-              ><img
-                class="img-fluid"
-                src="/assets/img/@gmaiaphotos-9312.png?h=f160ec7acd78cbdfde61bd455545308a"
+              ><img class="img-fluid" src="assets/img/foto11.svg"
             /></picture>
           </div>
           <div
@@ -117,7 +102,7 @@
             <img
               class="img-fluid"
               id="facaparte"
-              src="/assets/img/façaparte.svg?h=09933609871720362da5ce62089e045e"
+              src="assets/img/façaparte.svg"
             /><a
               class="btn btn-primary btn-lg d-flex pulse animated infinite me-2"
               role="button"
@@ -128,13 +113,19 @@
           </div>
         </div>
       </div>
-      <!-- End: Hero Clean --><!-- Start: 1 Row 2 Columns -->
-      <div class="container" id="sobre" style="background: #f5f5f5">
-        <div class="row" style="margin-bottom: 0px">
-          <div class="col-md-6" style="margin-bottom: 15px">
+      <div
+        class="container"
+        id="sobre"
+        style="background: #f5f5f5; margin-bottom: 0px"
+      >
+        <div
+          class="row"
+          style="padding-left: 0px; padding-bottom: 20px; margin-bottom: 0px"
+        >
+          <div class="col-md-6">
             <img
               class="img-fluid"
-              src="/assets/img/Group%203%20(2).svg?h=8ada9e6b3551fb77bc764c864189ac73"
+              src="assets/img/ola.svg"
               style="
                 position: relative;
                 display: flex;
@@ -142,6 +133,7 @@
                 width: 100%;
                 transform: translate(2px);
                 margin-top: 0px;
+                margin-bottom: 15px;
               "
               width="334"
               height="453"
@@ -158,33 +150,32 @@
                 width: 100%;
                 height: 100%;
                 margin-top: 0;
-                margin-bottom: 15px;
               "
             ></iframe>
           </div>
         </div>
       </div>
-      <!-- End: 1 Row 2 Columns --><!-- Start: 1 Row 2 Columns -->
       <div class="container" id="vidas">
-        <div class="row" style="background: #f5f5f5">
+        <div
+          class="row"
+          style="background: #f5f5f5; margin-bottom: -1px; padding-bottom: 20px"
+        >
           <div class="col-md-6 d-flex flex-column">
             <img
               class="img-fluid"
-              src="/assets/img/Group%204%20(2).svg?h=862acd1e977fba3353659305e7112c89"
-              style="width: 90vw; margin-top: 20px; margin-bottom: 5px"
+              src="assets/img/transformadas.svg"
+              style="width: 90vw; margin-top: 3%"
             /><a
               class="btn btn-primary pulse animated infinite"
               role="button"
               style="
-                background: url('/assets/img/botao2.svg?h=336d698b5e4810294fddfc4f6e3f2131')
-                  center / cover no-repeat;
-                width: 300px;
+                background: url('assets/img/botao2.svg') center / cover
+                  no-repeat;
+                width: 280px;
                 height: 60px;
                 transform: translate(0%);
                 border-color: transparent;
                 padding-bottom: 10px;
-                margin-bottom: 15px;
-                margin-top: 10px;
               "
               href="https://wa.me/message/QYU64KXRKBXRN1"
             ></a
@@ -192,13 +183,13 @@
               class="btn btn-primary pulse animated infinite"
               role="button"
               style="
-                background: url('/assets/img/me%20siga.svg?h=ada4c8d82bc5281f3e6ee280ea112f67')
-                  center / cover no-repeat;
+                background: url('assets/img/me%20siga.svg') center / cover
+                  no-repeat;
                 width: 200px;
                 height: 90px;
                 padding: 8px 20px;
                 border-color: transparent;
-                margin-bottom: 15px;
+                padding-bottom: 0px;
               "
               href="https://www.instagram.com/rafaelcoelhomed/"
             ></a>
@@ -206,58 +197,14 @@
           <div class="col-md-6">
             <img
               class="img-fluid"
-              src="/assets/img/@gmaiaphotos-9336-1.png?h=f5dd903305b291dd3570066341e986e3"
+              src="assets/img/imagemsmartphone.svg"
+              style="width: 100%"
             />
           </div>
         </div>
       </div>
-      <!-- End: 1 Row 2 Columns --><!-- Start: 1 Row 2 Columns -->
-      <div class="container" id="mude" style="background: #f5f5f5">
-        <div class="row">
-          <div class="col-md-6">
-            <iframe
-              class="d-flex"
-              allowfullscreen=""
-              frameborder="0"
-              src="https://www.youtube.com/embed/DebaMjxvZME"
-              width="560"
-              height="315"
-              style="
-                width: 100%;
-                height: 100%;
-                margin-bottom: 0px;
-                padding-bottom: 10px;
-              "
-            ></iframe>
-          </div>
-          <div class="col-md-6">
-            <div class="card">
-              <img
-                class="img-fluid card-img-top w-100 d-block"
-                src="/assets/img/euquero.svg?h=d7d4c7d8ad98631d0925990ad881ebc3"
-                style="width: 100%; height: 100%; padding-bottom: 0px"
-              />
-              <div class="card-body" style="background: #f5f5f5">
-                <a
-                  class="btn btn-primary pulse animated infinite"
-                  role="button"
-                  href="https://wa.me/message/QYU64KXRKBXRN1"
-                  style="
-                    width: 280px;
-                    height: 60px;
-                    background: url('/assets/img/botaofinal.svg?h=8ec157cb5577a3eda3ac45a4f0fcaf52')
-                      center / cover no-repeat;
-                    border-color: transparent;
-                  "
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End: 1 Row 2 Columns --><!-- Start: 1 Row 4 Columns -->
-      <div class="container" id="videos">
-        <div class="row" style="background: #f5f5f5">
+      <div class="container">
+        <div class="row" style="padding-bottom: 20px; background: #f5f5f5">
           <div class="col-md-3">
             <iframe
               allowfullscreen=""
@@ -301,189 +248,184 @@
               src="https://www.youtube.com/embed/gmbJ0VnNGqU"
               width="560"
               height="315"
-              style="
-                width: 200px;
-                height: 345px;
-                margin-top: 52px;
-                padding-bottom: 0px;
-                margin-bottom: 15px;
-              "
+              style="height: 345px; margin-top: 52px"
             ></iframe>
           </div>
         </div>
       </div>
-      <!-- End: 1 Row 4 Columns --><!-- Start: 1 Row 1 Column -->
-      <div class="container" id="coluna" style="margin-bottom: 0px">
-        <div class="row" style="margin-bottom: 0px">
-          <div
-            class="col-md-12"
-            style="width: 100%; background: #f5f5f5; margin-bottom: 0px"
-          >
-            <img
-              class="img-fluid rubberBand animated"
-              src="/assets/img/Group%201%20(10).svg?h=05c13970d0761d36f95067599dc0431c"
-              width="329"
-              height="69"
-              style="margin-top: 40px; margin-bottom: 20px"
-            /><a
-              class="btn btn-primary pulse animated infinite"
-              role="button"
-              style="
-                background: url('/assets/img/botaocoluna.svg?h=ab2854c740185ac2899a935fa1569a61')
-                  center / cover no-repeat;
-                width: 300px;
-                height: 70px;
-                border-color: transparent;
-                margin-bottom: 20px;
-                margin-top: 30px;
-              "
-              href="https://www.folhape.com.br/colunistas/saude-e-bem-estar/"
-            ></a>
+      <div class="container" id="mude" style="background: #f5f5f5">
+        <div class="row" style="padding-bottom: 20px">
+          <div class="col-md-6">
+            <iframe
+              class="d-flex"
+              allowfullscreen=""
+              frameborder="0"
+              src="https://www.youtube.com/embed/DebaMjxvZME"
+              width="560"
+              height="315"
+              style="width: 100%; height: 100%"
+            ></iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                class="img-fluid card-img-top w-100 d-block"
+                src="assets/img/euquero.svg"
+                style="width: 100%; height: 100%"
+              />
+              <div class="card-body" style="background: #f5f5f5">
+                <a
+                  class="btn btn-primary pulse animated infinite"
+                  role="button"
+                  href="https://wa.me/message/QYU64KXRKBXRN1"
+                  style="
+                    width: 280px;
+                    height: 60px;
+                    background: url('assets/img/botaofinal.svg') center / cover
+                      no-repeat;
+                    border-color: transparent;
+                  "
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- End: 1 Row 1 Column --><!-- Start: 1 Row 2 Columns -->
+      <div
+        class="container"
+        id="coluna"
+        style="background: #f5f5f5; padding-bottom: 20px"
+      >
+        <img
+          class="img-fluid"
+          src="assets/img/coluna.svg"
+          style="background: #f5f5f5; width: 100%"
+        /><a
+          class="btn btn-primary pulse animated infinite"
+          role="button"
+          style="
+            width: 280px;
+            height: 60px;
+            background: url('assets/img/botaocoluna.svg') center / cover
+              no-repeat;
+            border-color: transparent;
+          "
+          href="https://www.folhape.com.br/colunistas/saude-e-bem-estar/"
+        ></a>
+      </div>
       <div class="container" id="contato" style="background: #f5f5f5">
-        <div class="row">
+        <div class="row" style="padding-bottom: 20px">
           <div class="col-md-6">
             <img
               class="img-fluid"
-              src="/assets/img/@gmaiaphotos-9443.png?h=089c565a19a462a196e7de82cb700800"
-              style="
-                width: 100vw;
-                max-width: 100%;
-                height: auto;
-                margin-bottom: 10px;
-              "
+              src="assets/img/dr_rafael4.svg"
+              style="width: 100vw; max-width: 100%; height: auto"
             />
           </div>
           <div class="col-md-6">
-            <img
-              src="/assets/img/dadoscontato1.svg?h=74d676d21c53f863108063d8d2efba0b"
-              style="width: 100%; margin-bottom: 10px"
-            /><a
+            <img src="assets/img/dadoscontato1.svg" style="width: 100%" /><a
               class="btn btn-primary pulse animated infinite"
               role="button"
               style="
-                background: url('/assets/img/botaofinal.svg?h=8ec157cb5577a3eda3ac45a4f0fcaf52')
-                  center / cover no-repeat;
+                background: url('assets/img/botaofinal.svg') center / cover
+                  no-repeat;
                 width: 250px;
                 height: 50px;
                 border-color: transparent;
                 border-bottom-color: #ffffff;
-                margin-bottom: 15px;
               "
               href="https://wa.me/message/QYU64KXRKBXRN1"
             ></a>
           </div>
         </div>
       </div>
-      <!-- End: 1 Row 2 Columns -->
       <footer id="redes" style="background: var(--bs-border-color)">
-        <!-- Start: 1 Row 2 Columns -->
         <div class="container">
           <div class="row">
-            <div class="col-md-6"><h1>Dr. Rafael Coelho</h1></div>
+            <div class="col-md-6">
+              <h1>Dr. Rafael Coelho</h1>
+            </div>
             <div class="col-md-6">
               <a
-                class="btn btn-primary text-center"
+                class="btn btn-primary"
                 role="button"
                 style="
                   border-radius: 50px;
-                  background: var(--bs-btn-active-border-color);
-                  width: 100px;
+                  background: var(--bs-btn-border-color);
+                  width: 95px;
                   margin-right: 5px;
                   margin-bottom: 5px;
-                  height: 30px;
+                  height: 40px;
                   border-color: transparent;
-                  text-align: left;
-                  font-weight: bold;
-                  font-size: 11px;
+                  text-align: center;
                 "
                 href="https://wa.me/message/QYU64KXRKBXRN1"
                 >Whatsapp</a
               ><a
-                class="btn btn-primary text-center"
+                class="btn btn-primary"
                 role="button"
                 style="
                   border-radius: 50px;
-                  background: var(--bs-btn-active-border-color);
-                  width: 100px;
+                  background: var(--bs-btn-bg);
+                  width: 95px;
                   margin-right: 5px;
                   margin-bottom: 5px;
-                  height: 30px;
+                  height: 40px;
                   border-color: transparent;
-                  text-align: left;
-                  font-weight: bold;
-                  font-size: 11px;
                 "
-                href="https://instagram.com/rafaelcoelhomed?igshid=MmJiY2I4NDBkZg=="
+                href="https://www.instagram.com/rafaelcoelhomed/"
                 >Instagram</a
               ><a
-                class="btn btn-primary text-center"
+                class="btn btn-primary"
                 role="button"
                 style="
                   border-radius: 50px;
-                  background: var(--bs-btn-active-border-color);
-                  width: 100px;
+                  background: var(--bs-btn-bg);
+                  width: 95px;
                   margin-right: 5px;
                   margin-bottom: 5px;
-                  height: 30px;
+                  height: 40px;
                   border-color: transparent;
-                  text-align: left;
-                  font-weight: bold;
-                  font-size: 11px;
                 "
                 href="https://www.youtube.com/channel/UCRziYFqU94BbLxz_76vWyEQ"
-                >YouTube</a
+                >Youtube</a
               ><a
-                class="btn btn-primary text-center"
+                class="btn btn-primary"
                 role="button"
                 style="
                   border-radius: 50px;
-                  background: var(--bs-btn-active-border-color);
-                  width: 100px;
+                  width: 95px;
                   margin-right: 5px;
                   margin-bottom: 5px;
-                  height: 30px;
                   border-color: transparent;
-                  text-align: left;
-                  font-weight: bold;
-                  font-size: 11px;
+                  height: 40px;
                 "
                 href="https://www.tiktok.com/@drrafaelcoelho?_t=8yunnuj3xan&amp;_r=1"
                 >Tik Tok</a
               ><a
-                class="btn btn-primary text-center"
+                class="btn btn-primary"
                 role="button"
                 style="
                   border-radius: 50px;
-                  background: var(--bs-btn-active-border-color);
-                  width: 100px;
+                  width: 95px;
                   margin-right: 5px;
                   margin-bottom: 5px;
-                  height: 30px;
                   border-color: transparent;
-                  text-align: left;
-                  font-weight: bold;
-                  font-size: 11px;
+                  height: 40px;
                 "
-                href="http://www.linkedin.com/in/dr-rafael-coelho-emagrecimento-e-performance-a6a570260"
+                href="https://www.linkedin.com/in/dr-rafael-coelho-emagrecimento-e-performance-a6a570260/"
                 >LinkedIn</a
               ><a
-                class="btn btn-primary text-center"
+                class="btn btn-primary"
                 role="button"
                 style="
                   border-radius: 50px;
-                  background: var(--bs-btn-active-border-color);
-                  width: 100px;
+                  background: var(--bs-btn-bg);
+                  width: 95px;
                   margin-right: 5px;
                   margin-bottom: 5px;
-                  height: 30px;
                   border-color: transparent;
-                  text-align: left;
-                  font-weight: bold;
-                  font-size: 11px;
+                  height: 40px;
                 "
                 href="https://duckduckgo.com/?q=Riomar+trade+center%2C+251%2C+Torre+A%2C+S2810%2C+Pina%2C+Recife-PE&amp;atb=v348-1&amp;ia=web&amp;iaxm=maps&amp;strict_bbox=0&amp;bbox=-8.080808756186538%2C-34.898846515405296%2C-8.091101640609573%2C-34.88253868459475&amp;iai=14320274768010787912"
                 >Endereço</a
@@ -491,10 +433,9 @@
             </div>
           </div>
         </div>
-        <!-- End: 1 Row 2 Columns -->
       </footer>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/script.min.js?h=600b274eecdc648d7947a8e3a9936151"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
   </body>
 </html>
